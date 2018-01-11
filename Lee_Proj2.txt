@@ -1,0 +1,14 @@
+/*
+ * Matthew Lee
+ * NetID: 29493210
+ * Project 2
+ * date: 10/27/16
+ * Tues Thurs 11:05
+ * "I did not collaborate with anyone on this assignment"
+ */
+
+
+
+ Project 2:
+Basically I created classes for the hole, putting, clubs, courses (including the two courses), the game's methods, and the player. The player class contained information about what stroke the player is on, their score, and the remaining distance of the ball from the hole. For this project I assumed that the hole was at the end of the course. In addition to be able to call on the appropriate information for each of the holes, I created a class of the hole and had its constructor contain the information. From there we can just use our getters to have the information in the game. As for the selection of clubs, I used a switch method (which would contain the  mean and standard eviation of the club)within a setter so that I wouldnt be typing a bunch of if/else statements. As for the game class, this is the class that has the whole method of the how the game works which encorporated a bunch of if/else statements, while/for loops. Basically whenever the distance was not equaled to zero I would keep asking them for a selection of the club and a power at which they would like to hit and when the remaining distance is below or at 20 it would switch from swinging to putting. And then finally once the remaining distance is equal to zero the score is calculated which is the difference of strokes and par. Then I would ask the player if they wanted to play again which would then go through the for loop and the next array index would pull out the necessary information for the next hole. For the calculation of the ball's distance, I created a method within the club class and putting class which used the formula that Ferguson gave us. Also when the player would hit beyond the course's distance, I would have them start back at where they shot prior to hitting off the course and then add an extra stroke (not sure if this counts as "extra credit"). I feel like the rest of my coding is understandle in that the comments explain its purpose. 
+
